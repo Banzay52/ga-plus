@@ -1,0 +1,154 @@
+.gaplus_cf_wrapper {
+	display: none;
+	position: absolute;
+	width: 85%;
+	height: auto;
+	overflow: hidden;
+	top: calc(100% - 2em);
+	left: 15%;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: Calibri;
+	transition: all .5s ease;
+	z-index: 1;
+	padding: 10px;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 100px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 100px rgba(0,0,0,0.15);
+    border-radius: 3px;
+    z-index: 9;
+}
+.gaplus_cf_wrapper.flx {
+display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gaplus_cf_wrapper_label {
+	width: 100%;
+	overflow: auto;
+	height: 2em;
+	font-family: Calibri;
+	color: #ff7d7d;
+}
+
+.gaplus_cf_wrapper_label:hover {
+	cursor: pointer;
+}
+
+.gaplus_cf_wrapper_label.action_done {
+	color: #1dd59a;
+}
+
+.gaplus_app_field {
+	font-size: 16px;
+	font-family: Calibri;
+}
+.gaplus_app_field label{
+	display: inline-block;
+	font-size: 14px;
+	width: 20%;
+}
+.gaplus_cf_wrapper .gaplus_app_field input,
+.gaplus_cf_wrapper .gaplus_app_field textarea {
+	width: 70%;
+	margin: 5px 0;
+}
+
+.gaplus_cf_wrapper input[type="radio"],
+.gaplus_app_field input[type='checkbox'] {
+	width: auto;
+	margin: 5px;
+	display: inline-block;
+}
+.gaplus_app_field input,
+.gaplus_app_field input[type='checkbox'],
+.gaplus_app_field select,
+.gaplus_app_field textarea {
+	display: inline-block;
+	padding: 5px !important;
+	font-size: 16px;
+	font-family: Calibri;
+}
+
+.gaplus_cf_radio_group,
+.gaplus_cf_checkbox_group {
+	display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+}
+.gaplus_preconfirm_buttons {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 5px 10px;
+}
+.gaplus_preconfirm_buttons div[name$='_button'] {
+	display: inline-block;
+	float: right;
+    padding: 0 10px;
+    font-size: 18px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.gaplus_preconfirm_buttons div[name='hide_button'] {
+	background: #f7c86e;
+    color: #fff;
+}
+
+.gaplus_preconfirm_buttons div[name='hide_button']:hover {
+	background: #f7c86e;
+    color: #fff;
+	cursor: pointer;
+}
+
+.gaplus_preconfirm_buttons div[name='save_button'] {
+	background: #1dd59a;
+    color: #fff;
+}
+
+.gaplus_preconfirm_buttons div[name='save_button']:hover {
+	background: #1dd59a;
+    color: #fff;
+	cursor: pointer;
+}
+
+.gaplus_app_field.gaplus_required .not_valid {
+	border: #e91b1d solid 1px !important;
+	box-shadow: 0 0 2px rgba(233, 59, 61, .8) !important;
+	outline: 20px solid transparent !important;
+}
+
+.gaplus_app_cf {
+	display: flex;
+	width: calc(50% - 4px);
+	height: auto;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	font-family: Calibri;
+	text-align: left;
+	float: left;
+	overflow-wrap: normal;
+	overflow: visible;
+	margin: 2px;
+	box-sizing: border-box;
+	color: #667;
+}
+
+.gaplus_app_cf_name {
+	display: inline-block;
+	padding: 5px 10px;
+	width: 40%;
+	text-align: right;
+}
+
+.gaplus_app_cf_value {
+	display: inline-block;
+	background-color: #fff;
+	width: 60%;
+	padding: 5px 10px;
+	word-break: break-all;
+}

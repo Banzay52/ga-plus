@@ -1,0 +1,146 @@
+#gaplus_cf_row {
+	width: 100%;
+	padding: 1rem 0 8rem 0;
+	position: relative;
+}
+#gaplus_cf_row  .attr_container label span {
+	color: #d00;
+}
+#gaplus_cf_row .attr_container label {
+	display: block;
+	position: relative;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.attr_container {
+	display: block;
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+#gaplus_cf_row .attr_container select,
+#gaplus_cf_row .attr_container input  {
+	height:	32px;
+	margin-top:	3px;
+	font-size: 16px;
+	width: 95%;
+}
+#gaplus_cf_row .attr_container textarea {
+	margin-top:	3px;
+	font-size: 16px;
+	width: 95%;
+}
+
+#gaplus_cf_row .attr_container select [disabled] {
+	color: #bbb;
+}
+#gaplus_cf_row .attr_container label:after {
+	content: attr(data-hint);
+    opacity: 0;
+    position: absolute;
+    top: calc(100% + 32px);
+    left: 20%;
+    width: 100%;
+    padding: 5px;
+    color: #00c18c;
+    background-color: #efe;
+    font-weight: 400;
+    border: 1px solid #00c18c;
+    border-radius: 5px;
+    z-index: -1;
+    transition: opacity 0.5s ease;
+}
+#gaplus_cf_row .attr_container:hover label:after {
+    display: none;
+    opacity: .9;
+    z-index: 100;
+}
+#gaplus_cf_row #new_ga_cf_btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	margin: 1em;
+}
+.not_valid {
+	border-color: #e93b3d !important;
+	box-shadow: 0 0 2px rgba(233, 59, 61, .8) !important;
+	outline: 20px solid transparent !important;
+}
+/*
+label[for="fld_shortcode"] span.before {
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	top: 100%;
+
+}*/
+
+div#gaplus_cf_templates {
+	display: block;
+	width: 100%;
+	line-height: 0;
+}
+
+.gaplus_row {
+    width: 100%;
+    display: inline-block;
+    background-color: #e0f0e0;
+}
+
+.gaplus_row:first-child {
+	background-color: #ddd;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.gaplus_row:nth-child(2n) {
+    background-color: #eaffea;
+}
+
+.gaplus_cell {
+    /* display: inline-block; */
+    float: left;
+    width: 20%;
+    min-height: 3em;
+    line-height: 2em;
+    box-sizing: border-box;
+    padding: .5em 0 0 6px;
+    font-size: 16px;
+}
+
+.gaplus_info_row {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #333;
+    text-align: left;
+    padding: 10px;
+    display: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.gaplus_info_row.gp_error{
+	background-color: #e66;
+}
+.gaplus_info_row.gp_hint{
+	background-color: #9e8;
+}
+
+.gp_checkbox {
+    padding: 0 !important;
+    margin: 0 0 5px 0 !important;
+    border-bottom: 1px solid transparent  !important;
+}
+.gp_checkbox .cmb-th {
+    width: 100% !important;
+}
+.ga_hide {
+    display: none;
+}
+#show_gpac {
+    cursor: pointer;
+    text-decoration: underline;
+}
