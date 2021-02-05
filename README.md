@@ -3,15 +3,6 @@ Source for demonstration purposes only
 
 
 
-=== gAappointments Plus ===
-Contributors: banzay52
-Tags: appointments, schedule
-Requires at least: 4.7
-Tested up to: 5.2
-Stable tag: 1.0.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 This plugin is an extension for Gravity Forms' Gappointments add-on (http://gappointments.com/).
 
 == Description ==
